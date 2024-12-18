@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number By Mursalin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div id="again">
+            <button id="again">Again</button>
+        </div>
+        <div class="top_info">
+            <p>< Between 1 to 20 ></p>
+        </div>
+    </header>
+    <section id="hero_area" class="container">
+        <h2>Guess The Number 🤔</h2>
+        <div id="win">
+        </div>
+        <div id="hide"></div>
+        <h3 id="guess">0</h3>
+    </section>
+    <section id="message-info" class="container">
+        <p id="message">Guess Number Between 1 to 20 <img src="img.gif" alt=""></p>
+    </section>
+    <section id="main-body" class="container">
+        <div class="input-area">
+            <input type="text" id="input" placeholder="Number Only 1 to 20">
+            <input type="submit" id="submit" value="check!">
+        </div>
+        <div class="status_area">
+            <!-- <p>🤩Correct Number🥳</p>
+            <p>😒It's High Number</p>
+            <p>☹️It's Low Number</p> -->
+            <p>Attempt : <span id="score">0</span></p>
+        </div>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>
