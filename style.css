@@ -138,3 +138,10 @@ body{
 .status_area{
     flex-basis: 48%;
 }
+
+//footer
+#footer{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
