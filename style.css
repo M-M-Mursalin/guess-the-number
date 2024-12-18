@@ -144,4 +144,6 @@ body{
     text-align: center;
     font-weight: 500;
     font-size: 15px;
+    display: block;
+    padding-top: 30px;
 }
